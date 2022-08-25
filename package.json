@@ -1,0 +1,18 @@
+{
+  "name": "pac-man-ws",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "ws": "^8.8.1"
+  },
+  "scripts": {
+    "start": "concurrently \"node server.js\" \"http-server\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "http-server": "^14.1.1"
+  }
+}

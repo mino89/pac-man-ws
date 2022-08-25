@@ -1,0 +1,19 @@
+button{
+    user-select: none;
+}
+
+.commands{
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 16px);
+    width: 100%;
+}
+
+.commands-line{
+    flex:  1;
+    display: flex;
+    justify-content: stretch;
+}
+.commands-line button{
+    flex: 1;
+}
